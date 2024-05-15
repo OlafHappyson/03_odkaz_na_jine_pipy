@@ -8,5 +8,5 @@ on:
 
 jobs:
   call-reusable-workflow:
-    uses: OlafHappyson/OlafHappyson/.github/workflows/CI.yml@main
+    uses: OlafHappyson/OlafHappyson/.github/workflows/blank.yml@main
     
