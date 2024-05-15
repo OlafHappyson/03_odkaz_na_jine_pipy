@@ -1,0 +1,12 @@
+# repozitář B: .github/workflows/main.yml
+name: Odkaz na workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  call-reusable-workflow:
+    uses: OlafHappyson/OlafHappyson/.github/workflows/CI.yml@main
+    
